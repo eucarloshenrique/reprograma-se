@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Contato</title>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="icon" type="imagem/png" href="/img/html5.png" />
+</head>
+
+<body>
+    <header>
+        <table id="cabecalho" width="100%" align="center">
+            <tbody>
+
+                <tr>
+                    <td rowspan="2" align="left" width="10%">
+                        <img src="img/carlos.jpg" alt="Carlos" width="100" id="cabecalho_001">
+                    </td>
+                    <td id="cabecalho_003">Carlos Henrique</td>
+                </tr>
+                <tr>
+                    <td id="cabecalho_002" vAlign="top">Desenvolvedor Full Stack</td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <table width="80%" align="center" cellpadding="1" cellspacing="15">
+        <tbody>
+            <tr>
+                <td align="center">
+                    <form action="Principal.html">
+                        <button type="submit" class="button button1">Principal</button>
+                    </form>
+                </td>
+                <td align="center">
+                    <form action="QuemSou.html">
+                        <button type="submit" class="button button1">Quem Sou</button>
+                    </form>
+                </td>
+                <td align="center">
+                    <form action="Projetos.html">
+                        <button type="submit" class="button button1">Projetos</button>
+                    </form>
+                </td>
+                <td align="center">
+                    <form>
+                        <button disabled class="unselButton">Contato</button>
+                    </form>
+                </td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table width="80%" align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <h1>Entre em contato!</h1>
+                    <p>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei. Será um prazer lhe
+                        atender!
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table width="80%" align="center">
+        <tbody>
+            <tr>
+                <form>
+                    <td>
+                        <p>
+                            <label for="slcAssunto">Assunto</label><br>
+                            <select name="Assunto" id="slcAssunto" placeholder="Selecione o assunto" required>
+                                <option value="" disabled selected>Assunto</option>
+                                <option value="Or">Orçamento</option>
+                                <option value="At">Atendimento</option>
+                                <option value="Re">Reclamação</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="txtNome">Nome</label><br>
+                            <input type="text" size="40" name="Nome" id="txtNome" placeholder="Beltrano de tal"
+                                maxlength="40" required>
+                        </p>
+                        <p>
+                            <label for="txtEmail">E-mail</label><br>
+                            <input type="text" size="40" name="E-mail" id="txtEmail" placeholder="beltrano@email.com"
+                                required>
+                        </p>
+                        <p>
+                            <label for="txtTelefone">Telefone</label><br>
+                            <input type="text" size="40" name="Telefone" id="txtTelefone" placeholder="27 99999-9999"
+                                required>
+                        </p>
+                        <p>
+                            <label for="txtMensagem">Mensagem</label><br>
+                            <textarea name="Mensagem" size="40" id="txtMensagem" cols="40" rows="7"
+                                placeholder="Diga como posso ajudá-lo." required></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar">
+                    </td>
+                </form>
+            </tr>
+        </tbody>
+
+        <table width="80%" align="center">
+            <tbody>
+                <tr>
+                    <td>
+                        <hr>
+                        <h2>Outras formas de contato:</h2>
+                        <p>Residente em São Mateus/ES</p>
+                        <a href="https://outlook.live.com/mail/0/">carlos.henriquealmeida@live.com
+                        </a>
+                        <p> +55 (27) 995045731</p>
+                        <a href="https://linkedin.com/in/eucarloshenrique/"> Linkedin</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+</body>
+
+</html>
