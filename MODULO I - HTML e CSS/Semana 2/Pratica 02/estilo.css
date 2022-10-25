@@ -15,11 +15,11 @@ html {
 }
 
 header {
-    background-image: linear-gradient(rgb(63, 84, 160), rgb(51, 51, 51));
+    background-image: linear-gradient(rgb(75, 75, 77), rgb(97, 184, 85));
 }
 
 body {
-    background-color: rgb(240, 226, 187);
+    background-color: rgb(200, 241, 214);
     margin: 0;
     height: 100%;
 }
@@ -165,7 +165,7 @@ button {
     font-family: 'Caveat';
     font-size: 36px;
     color: rgb(51, 51, 51);
-    background-color: rgb(240, 226, 187);
+    background-color: rgb(125, 233, 148);
     border: none;
 }
 
