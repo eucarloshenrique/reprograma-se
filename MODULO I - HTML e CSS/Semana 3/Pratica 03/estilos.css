@@ -18,45 +18,46 @@
 body {
     font-family: 'Montserrat', sans-serif;
     /* 1. trocar a cor de fundo para #eee */
-    background-color: #eee;
-}
+    background-color: white
+    }
 
 a {
     /* 2. remover sublinhado dos links */
-    /* FAZER AQUI */
+    text-decoration: none;
     color: var(--corEscura);
 }
 
 .conteiner {
     width: 80vw;
     /* 3. centralizar no elemento pai */
-    /* FAZER AQUI */    
+    width: 100%;
+    text-align: center;
     /* 4. altura MÍNIMA de 100% da altura da área de visualização */
-    /* FAZER AQUI */
+    margin-bottom:100%;
 }
 
 .areaesquerda {
     width: 18vw;
     background-color: white;
     /* 5. posicionamento fixo */
-    /* FAZER AQUI */
+    position:fixed;
     /* 6. altura de 100% da área de visualização */
-    /* FAZER AQUI */
+    height: 100%;
     padding: 15px;
     top: 0px;
 }
 
 .areaesquerda .logo img {
     /* 7. largura de 100% do elemento pai */
-    /* FAZER AQUI */
+    width: 100%;
     /* 8. cantos arredondados de 10 pixels */
-    /* FAZER AQUI */
+    border-radius: 10px;
 }
 
 .areaesquerda p img {
     width: 20px;
     /* 9. mostrar como blocos em linha */
-    /* FAZER AQUI */
+    display: inline-block;
     margin-right: 12px;
 }
 
@@ -66,19 +67,19 @@ a {
 
 .social img {
     /* 10. largura de 20 pixels */
-    /* FAZER AQUI */
+    width: 20px;
     /* 11. mostrar como blocos em linha */
-    /* FAZER AQUI */
+    display: inline-block;
     margin-right: .01vw !important;
 }
 
 .areadireita {
     /* 12. largura de 62% da área de visualização */
-    /* FAZER AQUI */
+    width: 62%;
     /* 13. posicionamento relativo */
-    /* FAZER AQUI */
+    position: relative;
     /* 14. afastamento esquerdo de 18% */
-    /* FAZER AQUI */
+    margin-left: 18%;
     background-color: #eee;
     padding: 15px;
 }
@@ -93,7 +94,10 @@ a {
     height: 8px;
     background-color: #ddd;
     /* 15. margem superior e inferior de 15px e de 0px nas laterais */
-    /* FAZER AQUI */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
     clear: both;
 }
 
@@ -101,7 +105,7 @@ a {
     width: calc((100% - 1.6rem)/3);
     background-color: white;
     /* 16. mostrar como blocos em linha */
-    /* FAZER AQUI */
+    display: inline-block;
 }
 
 .card img {
@@ -117,7 +121,7 @@ a {
 .sobre .hero .texto {
     width: 35%;
     /* 17. flutuação à esquerda */
-    /* FAZER AQUI */
+    float: left;
     /* 18. alinhamento vertical superior */
     /* FAZER AQUI */
     padding: 30px;
@@ -129,7 +133,7 @@ a {
 
 .sobre .hero .imagem {
     /* 19. flutuação à esquerda */
-    /* FAZER AQUI */
+    float: left;
     width: 65%;
 }
 
@@ -142,7 +146,10 @@ a {
     background-color: var(--corEscura);
     color: white;
     /* 20. margens internas superiores e inferiores de 15px e laterais de 30px */
-    /* FAZER AQUI */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: inline-block;
     font-family: 'Montserrat';
     font-size: 1.3vw;
@@ -151,7 +158,7 @@ a {
 .btn:hover {
     background-color: white;
     /* 21. cor igual à variável "corEscura" */
-    /* FAZER AQUI */
+    color: var(--corEscura);
     outline: solid 1px var(--corEscura);
     outline-offset: -1;
 }
@@ -159,14 +166,13 @@ a {
 .progresso {
     height: 3vw;
     /* 22. largura de 100% do elemento pai */
-    /* FAZER AQUI */
+    width: 100%;
     background-color: #ddd;
 }
 
 .progresso div {
     background-color: var(--corEscura);
     /* 23. altura de 3% da área de visualização */
-    /* FAZER AQUI */
     display: inline-block;
     color: white;
     /* 24. linha de texto com de 3% de altura da área de visualização */
@@ -177,7 +183,7 @@ a {
 .precos table {
     width: 100%;
     /* 25. remoção de espaços entre células da tabela */
-    /* FAZER AQUI */
+    border-collapse: collapse;
     text-align: center;
     border: solid 1px #ddd;
 }
@@ -203,7 +209,7 @@ a {
     width: 100%;
     text-align: center;
     /* 27. borda cinza clara de 1px */
-    /* FAZER AQUI */
+    border: solid 1px rgb(179, 179, 179);
     border-collapse: collapse;
 }
 
@@ -216,7 +222,7 @@ a {
 
 .contato table img {
     /* 29. largura de 64px */
-    /* FAZER AQUI */
+    width: 64px;
 }
 
 .contato label {
@@ -227,7 +233,7 @@ a {
 .contato select,
 .contato textarea {
     /* 30. margem interna de 15px */
-    /* FAZER AQUI */
+    padding: 15px;
     font-size: 1.3vw;
     font-family: 'Montserrat';
     width: 100%;
@@ -235,7 +241,7 @@ a {
 
 .rodape {
     /* 31. texto centralizado */
-    /* FAZER AQUI */
+    text-align: center;
     color: white;
     font-size: 1.3vw;
 }
