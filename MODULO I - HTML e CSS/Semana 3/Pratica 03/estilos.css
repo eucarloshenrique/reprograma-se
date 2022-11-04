@@ -33,7 +33,8 @@ a {
     margin-left: 10%;
     margin-right: 10%;
     /* 4. altura MÍNIMA de 100% da altura da área de visualização */
-    margin-bottom: 100vw;
+    min-height: 100vw;
+    
 }
 
 .areaesquerda {
@@ -175,7 +176,7 @@ a {
 .progresso div {
     background-color: var(--corEscura);
     /* 23. altura de 3% da área de visualização */
-    height: 100%;
+    height: 3vw;
     display: inline-block;
     color: white;
     /* 24. linha de texto com de 3% de altura da área de visualização */
