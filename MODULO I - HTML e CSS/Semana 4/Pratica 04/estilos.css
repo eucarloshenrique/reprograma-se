@@ -284,7 +284,7 @@ div.rodape {
         display: flex;
         /* 8. Espaço de 3vw entre itens flexbox */
         gap: 3vw;
-        margin-bottom: 3vw;
+        
     }
 
     .areaesquerda .menu img {
