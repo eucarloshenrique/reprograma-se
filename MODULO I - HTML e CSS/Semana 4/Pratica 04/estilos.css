@@ -303,7 +303,7 @@ div.rodape {
         /* 12. Alinhamento vertical superior */
        vertical-align: super;
         /* 13. Margens zeradas (forçar) */
-        margin: 0;
+        margin: 0px !important; 
         font-size: 6vw;
     }
 
@@ -339,7 +339,7 @@ div.rodape {
     .sobre .hero img {
         width: 100%;
         /* 19. Altura automática (forçar) */
-        height: auto;
+        height: auto !important;
     }
 
     .sobre .hero .texto h2 {
