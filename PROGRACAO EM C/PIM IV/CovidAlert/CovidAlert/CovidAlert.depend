@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1669603898 source:e:\unip\pim iv\covidalert\covidalert\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1669495674 source:e:\unip\pim iv\covidalert\covidalert\teste_ponteiro.c
+	<stdio.h>
+	<stdlib.h>
+
+1669508248 source:e:\unip\pim iv\covidalert\covidalert\validarcpf.c
+
+1669504163 source:e:\unip\pim iv\covidalert\covidalert\testefuncao.c
+
+1669556700 source:e:\unip\pim iv\covidalert\covidalert\validardata.c
+
+1669604349 source:e:\unip\pim iv\covidalert\covidalert\validarcel.c
+
+1669584383 source:e:\unip\pim iv\covidalert\covidalert\validaremail.c
+
+1669589953 source:e:\unip\pim iv\covidalert\covidalert\validarestado.c
+
+1669591015 source:e:\unip\pim iv\covidalert\covidalert\validarestd.c
+
+1669597649 source:e:\unip\pim iv\covidalert\covidalert\validarcep.c
+
