@@ -16,11 +16,43 @@
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 03</h1>
         <p class="lead">
-            Usando exclusivamente classes do Bootstrap 5, aprimore o resultado da questão 2 substituindo o último item de menu por um menu flutuante com o título "Logado como Fulano" e com os itens "Perfil", "Alterar Senha" e "Sair". Substitua o nome "Fulano" por seu primeiro nome e deixe-o em negrito.
+            Usando exclusivamente classes do Bootstrap 5, aprimore o resultado da questão 2 substituindo o último item
+            de menu por um menu flutuante com o título "Logado como Fulano" e com os itens "Perfil", "Alterar Senha" e
+            "Sair". Substitua o nome "Fulano" por seu primeiro nome e deixe-o em negrito.
         </p>
         <hr>
     </div>
-    <!-- FAZER AQUI -->
+    <nav class="navbar bg-danger navbar-dark navbar-expand-md">
+        <div class="container">
+            <a href="" class="navbar-brand d-flex align-items-center">
+                <i class="bi-bootstrap-fill fs-1 me-2"></i>
+                Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <div class="navbar-nav ms-auto d-flex align-items-end">
+                    <a href="#" class="nav-link">Principal</a>
+                    <a href="#" class="nav-link">Serviços</a>
+                    <a href="#" class="nav-link">Contato</a>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Logado como <b>Carlos</b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-item">Perfil</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Alterar Senha</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Sair</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
 </body>
 

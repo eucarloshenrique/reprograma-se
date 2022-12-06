@@ -16,12 +16,33 @@
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 02</h1>
         <p class="lead">
-            Usando exclusivamente classes do Bootstrap 5, crie uma barra de navegação (navbar) responsiva com a logomarca do site à esquerda (ícone do Bootstrap + texto "Navbar") e um menu à direita composto pelos itens "Principal", "Serviços", "Contato" e "Entrar". O fundo da barra de navegação deve ocupar toda a largura da página e o conteúdo deve estar em um contêiner reponsivo, sendo que os itens do menu devem ser mostrados em resoluções a partir do breakpoint MD. Em resoluções menores, deve-se mostrar um botão para abrir o menu, cujos itens devem estar alinhados à direita. Use uma cor temática à sua escolha para a barra de navegação.
+            Usando exclusivamente classes do Bootstrap 5, crie uma barra de navegação (navbar) responsiva com a
+            logomarca do site à esquerda (ícone do Bootstrap + texto "Navbar") e um menu à direita composto pelos itens
+            "Principal", "Serviços", "Contato" e "Entrar". O fundo da barra de navegação deve ocupar toda a largura da
+            página e o conteúdo deve estar em um contêiner reponsivo, sendo que os itens do menu devem ser mostrados em
+            resoluções a partir do breakpoint MD. Em resoluções menores, deve-se mostrar um botão para abrir o menu,
+            cujos itens devem estar alinhados à direita. Use uma cor temática à sua escolha para a barra de navegação.
         </p>
         <hr>
-    </div>
-    <!-- FAZER AQUI -->
 
+        <nav class="navbar bg-danger navbar-dark navbar-expand-md">
+            <div class="container">
+                <a href="" class="navbar-brand d-flex align-items-center">
+                    <i class="bi-bootstrap-fill fs-1 me-2"></i>
+                    Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <div class="navbar-nav ms-auto d-flex align-items-end">
+                        <a href="#" class="nav-link active">Principal</a>
+                        <a href="#" class="nav-link">Serviços</a>
+                        <a href="#" class="nav-link">Contato</a>
+                        <a href="#" class="nav-link">Entrar</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
 </body>
 
 </html>
