@@ -16,13 +16,54 @@
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 10</h1>
         <p class="lead">
-            Usando exclusivamente classes do Bootstrap 5, crie um componente <i>Collapse</i> ativado por um botão intitulado "Mostrar". O collapse deve conter botões de paginação grandes, numerados de 1 a 10, sendo que o botão 3 deve estar ativo e o 9 deve estar desabilitado. O collapse deve conter também uma barra de progresso com 56px de altura, listrada e animada, contendo dois indicadores de progresso em cores distintas, sendo o primeiro em 50% e o segundo em 25%.
+            Usando exclusivamente classes do Bootstrap 5, crie um componente <i>Collapse</i> ativado por um botão
+            intitulado "Mostrar". O collapse deve conter botões de paginação grandes, numerados de 1 a 10, sendo que o
+            botão 3 deve estar ativo e o 9 deve estar desabilitado. O collapse deve conter também uma barra de progresso
+            com 56px de altura, listrada e animada, contendo dois indicadores de progresso em cores distintas, sendo o
+            primeiro em 50% e o segundo em 25%.
         </p>
         <hr>
     </div>
-    <!-- FAZER AQUI -->
     <div class="container">
-
+        <p>
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Mostrar</button>
+        </p>
+        <div class="collapse" id="painel">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a href="#" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">2</a>
+                </li>
+                <li class="page-item active">
+                    <a href="#" class="page-link">3</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">4</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">5</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">6</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">7</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">8</a>
+                </li>
+                <li class="page-item disabled">
+                    <a href="#" class="page-link">9</a>
+                </li>
+            </ul>
+            <hr>
+            <div class="progress" style="height: 56px;">
+                <div class="progress-bar w-50 bg-warning progress-bar-striped progress-bar-animated">50%</div>
+                <div class="progress-bar w-25 bg-primary progress-bar-striped progress-bar-animated">25%</div>
+            </div>
+        </div>
     </div>
 </body>
 
