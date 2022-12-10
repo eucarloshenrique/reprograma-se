@@ -1,0 +1,220 @@
+* {
+    font-family: 'Open Sans', 'Courier New', 'Caveat';
+    font-size: 20px;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+#table {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F00;
+}
+
+header {
+    background-image: linear-gradient(rgb(75, 75, 77), rgb(97, 184, 85));
+}
+
+body {
+    background-color: rgb(200, 241, 214);
+    margin: 0;
+    height: 100%;
+}
+
+footer {
+    background-color: white;
+    margin: 0;
+}
+
+
+#cabecalho {
+    padding: 25px 12% 25px;
+
+}
+
+
+#cabecalho_001 {
+    border-radius: 50%;
+
+}
+
+#cabecalho_003 {
+    font-family: 'Open Sans';
+    font-size: 38px;
+    color: white;
+    font-weight: bold
+}
+
+#cabecalho_002 {
+    font-family: 'Courier New';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 3px
+}
+
+.apresentacao {
+    background-color: rgb(51, 51, 51);
+    border-radius: 30px;
+    inset-block-start: 50px;
+    color: white;
+}
+
+.fotoprog {
+    background-image: url(img/pessoa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#ola {
+    font-family: 'Caveat';
+    font-size: 24px;
+    color: rgb(187, 187, 187);
+    margin: 0;
+}
+
+#nome {
+    font-family: 'Open Sans';
+    font-size: 46px;
+    color: rgb(207, 153, 55);
+    font-weight: bold;
+    margin: 0;
+}
+
+#eucrio {
+    font-family: 'Caveat';
+    font-size: 32px;
+    color: rgb(184, 190, 214);
+    margin: 0;
+}
+
+#contate {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 5;
+    background-color: blue;
+}
+
+#FotoProg {
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+p td {
+    font-size: 18px;
+    color: black;
+    margin: 0;
+}
+
+a {
+    font-size: 18px;
+    color: blue;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+#legfig {
+    font-size: 16px;
+}
+
+button {
+    display: inline-block;
+}
+
+.button {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    font-family: 'Caveat';
+    font-size: 36px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 40px;
+
+}
+
+.button1 {
+    font-family: 'Caveat';
+    font-size: 36px;
+    color: rgb(51, 51, 51);
+    background-color: rgb(125, 233, 148);
+    border: none;
+}
+
+.button1:hover {
+    font-family: 'Caveat';
+    font-size: 36px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 40px;
+}
+
+.unselButton {
+    font-family: 'Caveat';
+    font-size: 36px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 40px;
+}
+
+.buttonContate {
+    font-size: 24px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(59, 87, 170);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+}
+
+.buttonON {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    font-size: 24px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(59, 87, 170);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+}
+
+.buttonContate:hover {
+    font-size: 24px;
+    color: rgb(200, 200, 200);
+    background-color: rgb(75, 96, 162);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+}
