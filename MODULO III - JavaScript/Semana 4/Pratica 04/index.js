@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')();
 
 var alturas = [];
 var altura;
-var menores = [];
+var alturaMenor = [];
 var alunos;
 
 // Implementar a entrada de dados
@@ -19,9 +19,9 @@ for (var i = 0; i < 10; i++) {
       alunos++;
     }
   }
-  menores.push(alunos);
+  alturaMenor.push(alunos);
 }
 // Implementar a saída de dados
 for (var i = 0; i < 10; i++) {
-  console.log("Aluno " + i + ": maior que " + menores[i] + " alunos(s)");
+  console.log("Aluno " + i + ": maior que " + alturaMenor[i] + " alunos(s)");
 }
