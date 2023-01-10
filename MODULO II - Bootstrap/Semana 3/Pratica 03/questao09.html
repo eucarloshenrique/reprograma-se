@@ -15,12 +15,43 @@
     <div class="container my-3">
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 09</h1>
-        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário da questão 7 adicionando complementos com ícones sugestivos a todos os campos e substituindo os títulos (labels) por placeholders. Defina tamanho grande para todos os campos e botões e ajuste a responsividade do formulário para nenhum campo ficar mal acomodado.</p>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário da questão 7
+            adicionando complementos com ícones sugestivos a todos os campos e substituindo os títulos (labels) por
+            placeholders. Defina tamanho grande para todos os campos e botões e ajuste a responsividade do formulário
+            para nenhum campo ficar mal acomodado.</p>
         <hr>
     </div>
-    <!-- FAZER AQUI -->
-    <div class="container">
-
+    <div class="container-fluid col-lg-8 col-xl-6 mx-auto">
+        <h1 class="display-6">Cadastro de Cliente</h1>
+        <hr>
+        <div class="row mb-3">
+            <div class="mb-3 input-group input-group-lg">
+                <label for="nome" class="input-group-text"><i class="bi bi-person"></i></label>
+                <input type="text" id="nome" class="form-control" placeholder="Nome Completo">
+            </div>
+            <div class="mb-3 col input-group input-group-lg">
+                <label for="CPF" class="input-group-text"><i class="bi bi-person-vcard"></i></label>
+                <input type="text" id="CPF" class="form-control" placeholder="CPF">
+            </div>
+            <div class="mb-3 col input-group input-group-lg">
+                <label for="Nascimento" class="input-group-text"><i class="bi bi-balloon"></i></label>
+                <input type="date" id="Nascimento" class="form-control" placeholder="Data de Nascimento">
+            </div>
+            <div class="mb-3 col input-group input-group-lg">
+                <label for="perfil" class="input-group-text"><i class="bi bi-gender-trans"></i></label>
+                <select name="" id="perfil" class="form-select" placeholder="Gênero">
+                    <option value="">Gênero</option>
+                    <option value="">Masculino</option>
+                    <option value="">Feminino</option>
+                    <option value="">Outros</option>
+                </select>
+            </div>
+            <div class="mb-3 input-group input-group-lg">
+                <label for="endereco" class="input-group-text"><i class="bi bi-mailbox2"></i></label>   
+                <textarea name="" id="msg" cols="30" rows="10"class="form-control" style="height: 60px" placeholder=" ">Endereço Completo</textarea>       
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
     </div>
 </body>
 
