@@ -1,0 +1,35 @@
+NOME DO BRINQUEDO
+
+IDADE MÍNIMA
+1 a 3 anos
+4 a 6 anos
+7 a 11 anos
+12 ou acima
+
+CATEGORIA
+Carros
+Bonecas
+Tabuleiro
+Comidas
+Esporte
+Desenhos
+Animais
+
+COR
+
+PESO
+Pequeno
+Médio
+Grande
+
+MATERIAL
+Plastico
+Metal
+Borracha
+Tecido
+Papel
+Silicone
+
+
+
+

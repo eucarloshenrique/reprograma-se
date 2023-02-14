@@ -1,0 +1,105 @@
+<!-- Adaptação do arquivo index.html (5 pontos) -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="script.js" defer></script>
+  <title>JavaScript - DOM - Prática da Semana 03</title>
+</head>
+
+<body class="p-3 m-0 border-0">
+
+  <h1 class="text-center">Sistema de Cadastro de brinquedos</h1>
+  <hr>
+
+  <form name="form1" action="#" method="POST" class="row g-3 needs-validation" novalidate>
+    <div class="col-md-6">
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="nome" required>
+      <div class="invalid-feedback">Informe o nome corretamente.</div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="categoria" class="form-label">Categoria</label>
+
+      <select id="categoria" class="form-select" required>
+        <option value="" disabled selected>Selecione uma categoria...</option>
+        <option value="Carros">Carros</option>
+        <option value="Bonecas">Bonecas</option>
+        <option value="Tabuleiro">Tabuleiro</option>
+        <option value="Comidas">Comidas</option>
+        <option value="Esporte">Esporte</option>
+        <option value="Desenhos">Desenhos</option>
+        <option value="Animais">Animais</option>
+      </select>
+      <div id="feedbackCategoria" class="invalid-feedback">Informe a categoria corretamente.</div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="idade" class="form-label">Idade mínima recomendada</label>
+      <select id="idade" class="form-select" required>
+        <option value="" disabled selected>Selecione uma idade...</option>
+        <option value="1 a 3 anos">1 a 3 anos</option>
+        <option value="4 a 6 anos">4 a 6 anos</option>
+        <option value="7 a 11 anos">7 a 11 anos</option>
+        <option value="12 ou acima">12 ou acima</option>
+      </select>
+      <div class="invalid-feedback">Informe a idade mínima recomendada.</div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="cor" class="form-label">Cor do brinquedo</label>
+      <input type="text" class="form-control" id="cor" required>
+      <div class="invalid-feedback">Informe a cor corretamente.</div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="peso" class="form-label">Peso do brinquedo</label>
+      <select id="peso" class="form-select" required>
+        <option value="" disabled selected>Selecione uma faixa de peso...</option>
+        <option value="Até 500g">Até 500g</option>
+        <option value="De 500g a 1kg">De 500g a 1kg</option>
+        <option value="Acima de 1kg">Acima de 1kg</option>
+      </select>
+      <div class="invalid-feedback">Informe o peso do brinquedo.</div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="material" class="form-label">Material</label>
+      <input type="text" class="form-control" id="material" required>
+      <div class="invalid-feedback">Informe o material corretamente.</div>
+    </div>
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <input type="submit" class="btn btn-primary me-md-2" value="Inserir" id="btnInserir">
+    </div>
+  </form>
+
+  <hr>
+
+  <table class="table table-striped" id="tabela">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Categoria</th>
+        <th scope="col">Cor</th>
+        <th scope="col">Peso</th>
+        <th scope="col">Material</th>
+        <th scope="col">Ação</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+
+</body>
+
+</html>
