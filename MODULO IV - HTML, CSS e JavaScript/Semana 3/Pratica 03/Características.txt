@@ -18,9 +18,9 @@ Animais
 COR
 
 PESO
-Pequeno
-Médio
-Grande
+Até 500g
+De 500g a 1kg
+Acima de 1kg
 
 MATERIAL
 Plastico
@@ -32,4 +32,10 @@ Silicone
 
 
 
+nome
+idade
+categoria
+cor
+peso
+material
 
